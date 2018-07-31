@@ -1,0 +1,34 @@
+{
+    "name": "GateServer1",
+    "path": "../Logs/GateServer1/",
+    "streams": [
+        {
+            "type": "rotating-file",
+            "level": "info",
+            "name": "info.log",
+            "period": "1d",
+            "count": 7
+        },
+        {
+            "type": "rotating-file",
+            "level": "debug",
+            "name": "debug.log",
+            "period": "1d",
+            "count": 7
+        },
+        {
+            "type": "rotating-file",
+            "level": "error",
+            "name": "error.log",
+            "period": "1d",
+            "count": 7
+        },
+        {
+            "type": "rotating-file",
+            "level": "warn",
+            "name": "warn.log",
+            "period": "1d",
+            "count": 7
+        }
+    ]
+}

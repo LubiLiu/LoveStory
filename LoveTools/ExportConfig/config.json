@@ -1,0 +1,11 @@
+{
+  "xlsx": {
+    "head": 2,
+    "src": "../../LoveDocs/excel/[^~$]*.xlsx",
+    "dest": "../../LoveDocs/json"
+  },
+  "ts": false,
+  "json": {
+    "uglify": false
+  }
+}

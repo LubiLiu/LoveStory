@@ -1,0 +1,102 @@
+{
+  "1": {
+    "id": "1",
+    "dialogues": [
+      {
+        "showtype": 0,
+        "showvalue": 0,
+        "dialogue": "话说很久很久以前。。。。。。",
+        "emoticon": 0
+      },
+      {
+        "showtype": 0,
+        "showvalue": 0,
+        "dialogue": "有一个小村庄。。。。。。",
+        "emoticon": 0
+      },
+      {
+        "showtype": 0,
+        "showvalue": 0,
+        "dialogue": "在一户人家里。。。。。。",
+        "emoticon": 0
+      },
+      {
+        "showtype": 0,
+        "showvalue": 0,
+        "dialogue": "一家人围坐桌旁吃着晚餐。。。。。。",
+        "emoticon": 0
+      },
+      {
+        "showtype": 1,
+        "showvalue": 1,
+        "dialogue": "爸爸，我想吃鸡。",
+        "emoticon": 1
+      },
+      {
+        "showtype": 1,
+        "showvalue": 2,
+        "dialogue": "吃泥麻痹，我还没的吃呢。",
+        "emoticon": 1
+      },
+      {
+        "showtype": 1,
+        "showvalue": 1,
+        "dialogue": "不要，不要，我就想吃。",
+        "emoticon": 2
+      },
+      {
+        "showtype": 1,
+        "showvalue": 2,
+        "dialogue": "好好好，爸爸给你去找鸡。",
+        "emoticon": 2
+      }
+    ]
+  },
+  "2": {
+    "id": "2",
+    "dialogues": [
+      {
+        "showtype": 0,
+        "showvalue": 0,
+        "dialogue": "村口。。。。。。",
+        "emoticon": 0
+      },
+      {
+        "showtype": 0,
+        "showvalue": 0,
+        "dialogue": "有一个鸡站在那里。。。。。。",
+        "emoticon": 0
+      },
+      {
+        "showtype": 1,
+        "showvalue": 2,
+        "dialogue": "小莲！",
+        "emoticon": 3
+      },
+      {
+        "showtype": 1,
+        "showvalue": 3,
+        "dialogue": "哟～爸爸来玩吗？",
+        "emoticon": 1
+      },
+      {
+        "showtype": 1,
+        "showvalue": 2,
+        "dialogue": "今天没空，我儿子找你",
+        "emoticon": 1
+      },
+      {
+        "showtype": 1,
+        "showvalue": 3,
+        "dialogue": "哟，大公子要吃啊，那我上家去啦～",
+        "emoticon": 1
+      },
+      {
+        "showtype": 1,
+        "showvalue": 2,
+        "dialogue": "走走走，我饭还没吃完呢。",
+        "emoticon": 1
+      }
+    ]
+  }
+}

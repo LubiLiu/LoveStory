@@ -1,0 +1,54 @@
+{
+  "1": {
+    "id": "1",
+    "results": [
+      {
+        "resulttype": 0,
+        "resultvalue": 1
+      },
+      {
+        "resulttype": 1,
+        "resultvalue": 1
+      }
+    ]
+  },
+  "2": {
+    "id": "2",
+    "results": [
+      {
+        "resulttype": 1,
+        "resultvalue": 2
+      },
+      {
+        "resulttype": 2,
+        "resultvalue": 2
+      }
+    ]
+  },
+  "3": {
+    "id": "3",
+    "results": [
+      {
+        "resulttype": 2,
+        "resultvalue": 3
+      },
+      {
+        "resulttype": 3,
+        "resultvalue": 3
+      }
+    ]
+  },
+  "4": {
+    "id": "4",
+    "results": [
+      {
+        "resulttype": 3,
+        "resultvalue": 4
+      },
+      {
+        "resulttype": 4,
+        "resultvalue": 4
+      }
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "8204ef3d-1973-4357-8c66-63a9183a5034",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "PurpleProgressaBarbg": {
+      "ver": "1.0.3",
+      "uuid": "f5f97a3c-d958-4389-8240-06a99be13d43",
+      "rawTextureUuid": "8204ef3d-1973-4357-8c66-63a9183a5034",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 76,
+      "height": 14,
+      "rawWidth": 76,
+      "rawHeight": 14,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

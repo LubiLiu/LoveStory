@@ -1,0 +1,30 @@
+{
+  "ver": "1.0.0",
+  "uuid": "4e99051e-d977-4a24-8640-492ae8ad32a6",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "subMetas": {
+    "restaurant": {
+      "ver": "1.0.3",
+      "uuid": "8b42e29b-5a2a-4663-8bd1-3a474b934758",
+      "rawTextureUuid": "4e99051e-d977-4a24-8640-492ae8ad32a6",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": -2.5,
+      "offsetY": -2,
+      "trimX": 12,
+      "trimY": 4,
+      "width": 73,
+      "height": 97,
+      "rawWidth": 102,
+      "rawHeight": 101,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

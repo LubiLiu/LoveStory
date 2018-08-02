@@ -9,14 +9,12 @@ cc.Class({
         pagePrefabs: { default: [], type: [cc.Prefab] },
         pageComponents: { default: [], type: [cc.Object] },
         pageParentNode: { default: null, type: cc.Node },
-        moneyLabel: { default: null, type: cc.Label },
     },
 
     onLoad() {
         Game.Tools.AutoFit(this.canvas);
         Game.NotificationController.On(Game.Define.EVENT_KEY.USERINFO_UPDATEMONEY, this, this.onUpdateMoney);
         this.onPageButtonClick(null, 0);
-        this.moneyLabel.string = Game.UserModel.GetMoney();
     },
 
     start() {

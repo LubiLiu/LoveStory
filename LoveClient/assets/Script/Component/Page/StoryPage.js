@@ -1,5 +1,4 @@
 import Game from '../../Game';
-
 cc.Class({
     extends: cc.Component,
 
@@ -15,10 +14,14 @@ cc.Class({
     update(dt) {
     },
 
-    Init() {
-        console.log('Shop init');
+    onDestroy() {
     },
-    Update() {
-        console.log('Shop update');
-    }
+
+    Init() {
+        console.log('Story init');
+    },
+    Update: function () {
+        console.log('Story update');
+    },
+
 });

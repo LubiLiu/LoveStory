@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "LoveDocs\\commonjs"
+		},
+		{
+			"path": "LoveClient"
+		},
+		{
+			"path": "LoveTools"
+		}
+	],
+	"settings": {}
+}

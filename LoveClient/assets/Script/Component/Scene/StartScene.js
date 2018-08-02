@@ -9,16 +9,19 @@ cc.Class({
     onLoad() {
     },
 
+    onDestroy() {
+    },
+
     start() {
     },
 
     update(dt) {
     },
 
-    Init() {
-        console.log('Shop init');
+    onRestartClick() {
+
     },
-    Update() {
-        console.log('Shop update');
+    onPlayClick() {
+        cc.director.loadScene("GameScene");
     }
 });

@@ -16,9 +16,9 @@ cc.Class({
     },
 
     Init() {
-        console.log('Shop init');
+        console.log('Active init');
     },
     Update() {
-        console.log('Shop update');
+        console.log('Active update');
     }
 });

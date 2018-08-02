@@ -44,11 +44,8 @@ cc.Class({
         this.loadProgressBar.progress = percent;
         if (Game.GameInstance.loadingCount == Game.GameInstance.totalCount) {
             //加载完了
-            cc.director.loadScene("LoginScene");
+            this.loaded = true;
+            cc.director.loadScene("StartScene");
         }
-    },
-
-    onLoginComplete() {
-        cc.director.loadScene("GameScene");
     },
 });

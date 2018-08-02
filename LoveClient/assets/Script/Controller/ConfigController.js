@@ -7,19 +7,16 @@ let ConfigController = function () {
  * @param {Function} cb 
  */
 ConfigController.prototype.Init = function (cb) {
-    cc.loader.loadResDir('Json/', function (err, datas) {
+    cc.loader.loadResDir('Json/', function (err, datas, urls) {
         if (err) {
             Tools.InvokeCallback(cb, err);
             return;
         }
         for (let i = 0; i < datas.length; i++) {
             let data = datas[i];
-            delete data.Tool;
-            delete data.Version;
-            for (let j in data) {
-                this._configs[j] = data[j];
-            }
+            this._configs[urls[i]] = data;
         }
+        console.log(this._configs);
         Tools.InvokeCallback(cb, null);
     }.bind(this));
 };

@@ -82,6 +82,27 @@ function exportJson(args) {
                 //err - The error if any (err.list might be available with an array of errors for more detailed information)
                 //files - List of files that we copied
             });
+
+            //拷贝枚举文件
+            let defineDir = path.join(__dirname, '../../LoveDocs/commonjs');
+            let clientDefineDir = path.join(__dirname, '../../LoveClient/assets/Script/Util');
+            let serverDefineDir = path.join(__dirname, '../../LoveServer/Common');
+            cpr(defineDir, clientDefineDir, {
+                deleteFirst: false, //Delete "to" before
+                overwrite: true, //If the file exists, overwrite it
+                confirm: true //After the copy, stat all the copied files to make sure they are there
+            }, function (err, files) {
+                //err - The error if any (err.list might be available with an array of errors for more detailed information)
+                //files - List of files that we copied
+            });
+            cpr(defineDir, serverDefineDir, {
+                deleteFirst: false, //Delete "to" before
+                overwrite: true, //If the file exists, overwrite it
+                confirm: true //After the copy, stat all the copied files to make sure they are there
+            }, function (err, files) {
+                //err - The error if any (err.list might be available with an array of errors for more detailed information)
+                //files - List of files that we copied
+            });
         });
     }
 }

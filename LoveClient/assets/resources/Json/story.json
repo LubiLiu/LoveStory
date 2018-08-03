@@ -1,102 +1,371 @@
 {
   "1": {
     "id": "1",
-    "dialogues": [
-      {
-        "showtype": 0,
-        "showvalue": 0,
-        "dialogue": "话说很久很久以前。。。。。。",
-        "emoticon": 0
-      },
-      {
-        "showtype": 0,
-        "showvalue": 0,
-        "dialogue": "有一个小村庄。。。。。。",
-        "emoticon": 0
-      },
-      {
-        "showtype": 0,
-        "showvalue": 0,
-        "dialogue": "在一户人家里。。。。。。",
-        "emoticon": 0
-      },
-      {
-        "showtype": 0,
-        "showvalue": 0,
-        "dialogue": "一家人围坐桌旁吃着晚餐。。。。。。",
-        "emoticon": 0
-      },
-      {
-        "showtype": 1,
-        "showvalue": 1,
-        "dialogue": "爸爸，我想吃鸡。",
-        "emoticon": 1
-      },
-      {
-        "showtype": 1,
-        "showvalue": 2,
-        "dialogue": "吃泥麻痹，我还没的吃呢。",
-        "emoticon": 1
-      },
-      {
-        "showtype": 1,
-        "showvalue": 1,
-        "dialogue": "不要，不要，我就想吃。",
-        "emoticon": 2
-      },
-      {
-        "showtype": 1,
-        "showvalue": 2,
-        "dialogue": "好好好，爸爸给你去找鸡。",
-        "emoticon": 2
-      }
-    ]
+    "content": "序章",
+    "type": 103,
+    "animation": 0,
+    "save": 1,
+    "dialogues": {
+      "imageid": 0,
+      "emoticon": 0,
+      "name": null,
+      "nextid": 2,
+      "result": 0
+    }
   },
   "2": {
     "id": "2",
-    "dialogues": [
+    "content": "很久很久以前。。。",
+    "type": 102,
+    "animation": 0,
+    "save": 0,
+    "dialogues": {
+      "imageid": 0,
+      "emoticon": 0,
+      "name": null,
+      "nextid": 3,
+      "result": 0
+    }
+  },
+  "3": {
+    "id": "3",
+    "content": "有一个村庄。。。",
+    "type": 102,
+    "animation": 0,
+    "save": 0,
+    "dialogues": {
+      "imageid": 0,
+      "emoticon": 0,
+      "name": null,
+      "nextid": 4,
+      "result": 0
+    }
+  },
+  "4": {
+    "id": "4",
+    "content": "你好，托比。",
+    "type": 101,
+    "animation": 0,
+    "save": 1,
+    "dialogues": {
+      "imageid": 1,
+      "emoticon": 1,
+      "name": "桑比",
+      "nextid": 5,
+      "result": 0
+    }
+  },
+  "5": {
+    "id": "5",
+    "content": "你打算。",
+    "type": 201,
+    "animation": 0,
+    "save": 0,
+    "option": [
       {
-        "showtype": 0,
-        "showvalue": 0,
-        "dialogue": "村口。。。。。。",
-        "emoticon": 0
+        "answer": "打招呼",
+        "nextid": 6,
+        "result": 3
       },
       {
-        "showtype": 0,
-        "showvalue": 0,
-        "dialogue": "有一个鸡站在那里。。。。。。",
-        "emoticon": 0
-      },
-      {
-        "showtype": 1,
-        "showvalue": 2,
-        "dialogue": "小莲！",
-        "emoticon": 3
-      },
-      {
-        "showtype": 1,
-        "showvalue": 3,
-        "dialogue": "哟～爸爸来玩吗？",
-        "emoticon": 1
-      },
-      {
-        "showtype": 1,
-        "showvalue": 2,
-        "dialogue": "今天没空，我儿子找你",
-        "emoticon": 1
-      },
-      {
-        "showtype": 1,
-        "showvalue": 3,
-        "dialogue": "哟，大公子要吃啊，那我上家去啦～",
-        "emoticon": 1
-      },
-      {
-        "showtype": 1,
-        "showvalue": 2,
-        "dialogue": "走走走，我饭还没吃完呢。",
-        "emoticon": 1
+        "answer": "不理他",
+        "nextid": 8,
+        "result": 4
       }
     ]
+  },
+  "6": {
+    "id": "6",
+    "content": "你好。",
+    "type": 101,
+    "animation": 0,
+    "save": 0,
+    "dialogues": {
+      "imageid": 2,
+      "emoticon": 1,
+      "name": "托比",
+      "nextid": 7,
+      "result": 1
+    }
+  },
+  "7": {
+    "id": "7",
+    "content": "你要干嘛去啊。",
+    "type": 101,
+    "animation": 0,
+    "save": 0,
+    "dialogues": {
+      "imageid": 1,
+      "emoticon": 1,
+      "name": "桑比",
+      "nextid": 23,
+      "result": 0
+    }
+  },
+  "8": {
+    "id": "8",
+    "content": "诶诶诶，想打架么。",
+    "type": 101,
+    "animation": 0,
+    "save": 0,
+    "dialogues": {
+      "imageid": 1,
+      "emoticon": 2,
+      "name": "桑比",
+      "nextid": 9,
+      "result": 0
+    }
+  },
+  "9": {
+    "id": "9",
+    "content": "勇气需要达到40",
+    "type": 203,
+    "animation": 0,
+    "save": 0,
+    "condition": [
+      {
+        "condtype": 1,
+        "condid": 2,
+        "condoper": 3,
+        "condvalue": 40,
+        "nextid": 10
+      }
+    ]
+  },
+  "10": {
+    "id": "10",
+    "content": "系统检测【勇气】大于40",
+    "type": 101,
+    "animation": 0,
+    "save": 0,
+    "dialogues": {
+      "imageid": 0,
+      "emoticon": 0,
+      "name": null,
+      "nextid": 11,
+      "result": 0
+    }
+  },
+  "11": {
+    "id": "11",
+    "content": "来啊，谁怕谁。",
+    "type": 101,
+    "animation": 0,
+    "save": 0,
+    "dialogues": {
+      "imageid": 2,
+      "emoticon": 2,
+      "name": "托比",
+      "nextid": 12,
+      "result": 2
+    }
+  },
+  "12": {
+    "id": "12",
+    "content": "你打算。",
+    "type": 201,
+    "animation": 0,
+    "save": 0,
+    "option": [
+      {
+        "answer": "左勾拳",
+        "nextid": 13,
+        "result": 0
+      },
+      {
+        "answer": "有勾拳",
+        "nextid": 14,
+        "result": 0
+      }
+    ]
+  },
+  "13": {
+    "id": "13",
+    "content": "对方轻易的躲开，一拳打在你的脸上，你死了。",
+    "type": 301,
+    "animation": 0,
+    "save": 0
+  },
+  "14": {
+    "id": "14",
+    "content": "你打在了对方的脸上，对方一个趔趄。",
+    "type": 101,
+    "animation": 1,
+    "save": 0,
+    "dialogues": {
+      "imageid": 0,
+      "emoticon": 0,
+      "name": null,
+      "nextid": 15,
+      "result": 0
+    }
+  },
+  "15": {
+    "id": "15",
+    "content": "哟嗬，小伙子挺厉害嘛。",
+    "type": 101,
+    "animation": 0,
+    "save": 0,
+    "dialogues": {
+      "imageid": 1,
+      "emoticon": 2,
+      "name": "桑比",
+      "nextid": 16,
+      "result": 0
+    }
+  },
+  "16": {
+    "id": "16",
+    "content": "对方又是一拳打过来。",
+    "type": 101,
+    "animation": 0,
+    "save": 0,
+    "dialogues": {
+      "imageid": 0,
+      "emoticon": 0,
+      "name": null,
+      "nextid": 17,
+      "result": 0
+    }
+  },
+  "17": {
+    "id": "17",
+    "content": "勇气需要达到60才能打败对方",
+    "type": 203,
+    "animation": 0,
+    "save": 0,
+    "condition": [
+      {
+        "condtype": 1,
+        "condid": 2,
+        "condoper": 3,
+        "condvalue": 60,
+        "nextid": 18
+      },
+      {
+        "condtype": 1,
+        "condid": 2,
+        "condoper": 0,
+        "condvalue": 60,
+        "nextid": 21
+      }
+    ]
+  },
+  "18": {
+    "id": "18",
+    "content": "系统检测【勇气】大于60",
+    "type": 101,
+    "animation": 0,
+    "save": 0,
+    "dialogues": {
+      "imageid": 0,
+      "emoticon": 0,
+      "name": null,
+      "nextid": 19,
+      "result": 0
+    }
+  },
+  "19": {
+    "id": "19",
+    "content": "你轻巧的躲开了，回击一拳打在对方的另一侧脸上。",
+    "type": 101,
+    "animation": 1,
+    "save": 0,
+    "dialogues": {
+      "imageid": 0,
+      "emoticon": 0,
+      "name": null,
+      "nextid": 20,
+      "result": 0
+    }
+  },
+  "20": {
+    "id": "20",
+    "content": "你打倒了一个村民，被村民驱逐，从此成了一个浪人。",
+    "type": 302,
+    "animation": 0,
+    "save": 0
+  },
+  "21": {
+    "id": "21",
+    "content": "系统检测【勇气】未达到60",
+    "type": 101,
+    "animation": 0,
+    "save": 0,
+    "dialogues": {
+      "imageid": 0,
+      "emoticon": 0,
+      "name": null,
+      "nextid": 22,
+      "result": 0
+    }
+  },
+  "22": {
+    "id": "22",
+    "content": "你被打死掉了。",
+    "type": 301,
+    "animation": 0,
+    "save": 0
+  },
+  "23": {
+    "id": "23",
+    "content": "我打算去玩。",
+    "type": 101,
+    "animation": 0,
+    "save": 1,
+    "dialogues": {
+      "imageid": 2,
+      "emoticon": 1,
+      "name": "托比",
+      "nextid": 24,
+      "result": 0
+    }
+  },
+  "24": {
+    "id": "24",
+    "content": "拜拜。",
+    "type": 101,
+    "animation": 0,
+    "save": 0,
+    "dialogues": {
+      "imageid": 1,
+      "emoticon": 1,
+      "name": "桑比",
+      "nextid": 25,
+      "result": 0
+    }
+  },
+  "25": {
+    "id": "25",
+    "content": "你来到城里。你要去哪里。",
+    "type": 202,
+    "animation": 0,
+    "save": 0,
+    "option": [
+      {
+        "answer": "btn_outskirts",
+        "nextid": 26,
+        "result": 0
+      },
+      {
+        "answer": "btn_brothel",
+        "nextid": 27,
+        "result": 0
+      }
+    ]
+  },
+  "26": {
+    "id": "26",
+    "content": "你来到郊外，遇到了狗熊，你死了。",
+    "type": 301,
+    "animation": 1,
+    "save": 0
+  },
+  "27": {
+    "id": "27",
+    "content": "你来到怡红院，从此花天酒地，幸福一生。",
+    "type": 302,
+    "animation": 0,
+    "save": 0
   }
 }

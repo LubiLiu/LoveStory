@@ -4,10 +4,12 @@
     "results": [
       {
         "resulttype": 0,
+        "resultid": 0,
         "resultvalue": 1
       },
       {
         "resulttype": 1,
+        "resultid": 0,
         "resultvalue": 1
       }
     ]
@@ -17,10 +19,12 @@
     "results": [
       {
         "resulttype": 1,
+        "resultid": 0,
         "resultvalue": 2
       },
       {
         "resulttype": 2,
+        "resultid": 0,
         "resultvalue": 2
       }
     ]
@@ -30,10 +34,12 @@
     "results": [
       {
         "resulttype": 2,
+        "resultid": 0,
         "resultvalue": 3
       },
       {
         "resulttype": 3,
+        "resultid": 0,
         "resultvalue": 3
       }
     ]
@@ -43,10 +49,12 @@
     "results": [
       {
         "resulttype": 3,
+        "resultid": 0,
         "resultvalue": 4
       },
       {
         "resulttype": 4,
+        "resultid": 0,
         "resultvalue": 4
       }
     ]
